@@ -4,35 +4,124 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    color: rgb(39, 44, 49);
+
+    
 }
 
 body{
     background-image: url(image/bg\ blue.jpg);
-    height: 800px;
+    height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    margin-top: -136;
+    background-color: rgb(232, 242, 252);
 }
 .navContainer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.logo{
-    font-size: 20px;
-}
 li,a{
     font-family: "Poppins", sans-serif;
-    font-size: 30px;
+    
+    font-size: 25px;
     text-decoration: none;
     padding: 20px;
 }
 .navMenu{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 a:hover{
     color: white;
     transition: 0.3s;
 }
+.hero{
+    margin-top: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+.container{
+    /* background-color: aliceblue; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0%;
+}
+.name{
+    color: rgb(39, 44, 49);
+    margin-top: 50px;
+}
+.name #Julios{
+    font-size: 50px;
+    height: 60px;
+    
+}
+.name #Reyes{
+    font-size: 80px;
+    height: auto;
+    
+}
+.name #intro{
+    font-size: 25px;
+}
+.container img{
+    height: 100%;
+}
+.name button{
+    font-size: 25px;
+    color: rgb(39, 44, 49);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    border-color: rgb(5, 161, 214);
+    background-color: rgb(201, 229, 240);
+    border-style: solid;
+}
+.name button:hover{
+    background-color: rgb(5, 161, 214);
+    color: aliceblue;
+}
+.about{
+    /* margin-top: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    
+}
+#works{
+margin-top: 0px;
+}
+.myWorks{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+#container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+#container .works-container{
+    margin-top: 80px;
+    height: 100vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#works img{
+    height: 30%;
+}
+
